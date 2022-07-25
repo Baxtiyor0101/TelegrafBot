@@ -25,5 +25,5 @@ bot.command('orol', (ctx) => ctx.replyWithPhoto(
 
 // animatsiya bilan javob qaytarish:
 bot.command('tabassum', (ctx) => ctx.replyWithAnimation( {source: 'media/smile.gif' }));
-
+// bot.start()
 bot.launch();

@@ -65,6 +65,7 @@ bot.hears('🍎 Meva', (ctx) => {
 });
 
 
+
 bot.command('keyboard', ({ reply }) => {
   return reply('Har hil tugmalar', Markup
     .keyboard([
@@ -77,7 +78,5 @@ bot.command('keyboard', ({ reply }) => {
     .extra()
   )
 });
-
-
 
 bot.launch()
