@@ -13,6 +13,8 @@ bot.command('start', (ctx) => {
     ))
   });
 
+
+
   bot.action('ws', (ctx) => {
   ctx.reply('<i>Ahvolingiz qalay?</i>',
     Extra.HTML()
@@ -24,6 +26,8 @@ bot.command('start', (ctx) => {
     ])))
 });
   
+
+
 bot.action('dont-ask', (ctx) => {
     return ctx.answerCbQuery(`Hop bo'ladi!`)
   });
